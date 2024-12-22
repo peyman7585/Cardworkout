@@ -10,7 +10,6 @@ import UIKit
 class CardSelectionVC: UIViewController {
 
     @IBOutlet weak var cardImageView: UIImageView!
-    @IBOutlet var buttons: [UIButton]!
     var cards: [UIImage] = Card.allValues
     var timer: Timer!
     
@@ -18,9 +17,6 @@ class CardSelectionVC: UIViewController {
         super.viewDidLoad()
 
         startTimer()
-        for Button in buttons {
-            Button.layer.cornerRadius = 8
-        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
