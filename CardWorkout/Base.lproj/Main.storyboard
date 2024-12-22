@@ -68,7 +68,6 @@
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="19"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="rulesButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="slC-TT-8hD"/>
                                     <segue destination="7aB-r1-E8g" kind="presentation" id="1bB-SO-p6s"/>
                                 </connections>
                             </button>
